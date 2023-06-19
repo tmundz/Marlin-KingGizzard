@@ -65,8 +65,8 @@
 //
 // Power-loss Detection
 //
-#ifndef ELECTROMAGNETIC_PIN
-  #define ELECTROMAGNETIC_PIN               PC12  // Power Loss Detection: PWR-DET
+#ifndef MAGNET_PIN
+  #define MAGNET_PIN               PC12  // Power Loss Detection: PWR-DET
 #endif
 
 //

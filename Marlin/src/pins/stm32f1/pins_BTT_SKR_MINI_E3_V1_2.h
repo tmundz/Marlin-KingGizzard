@@ -42,8 +42,8 @@
   #define Z_SERIAL_TX_PIN                   PC10
   #define Z_SERIAL_RX_PIN        Z_SERIAL_TX_PIN
 
-  #define E0_SERIAL_TX_PIN                  PC11
-  #define E0_SERIAL_RX_PIN      E0_SERIAL_TX_PIN
+  #define X2_SERIAL_TX_PIN                  PC11
+  #define X2_SERIAL_RX_PIN      X2_SERIAL_TX_PIN
 
   // Reduce baud rate to improve software serial reliability
   #ifndef TMC_BAUD_RATE

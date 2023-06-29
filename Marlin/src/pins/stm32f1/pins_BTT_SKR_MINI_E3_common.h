@@ -49,18 +49,13 @@
 #define X_STOP_PIN                          PC0   // X-STOP
 #define Y_STOP_PIN                          PC1   // Y-STOP
 #define Z_STOP_PIN                          PC2   // Z-STOP
+#define X2_STOP_PIN                         PC15   // E0/X2-STOP
 
 //
 // Z Probe must be this pin
 //
 #define Z_MIN_PROBE_PIN                     PC14  // PROBE
 
-//
-// Filament Runout Sensor
-//
-#ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN                    PC15  // E0-STOP
-#endif
 
 //
 // Power-loss Detection
